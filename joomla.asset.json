@@ -1,0 +1,113 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "signet",
+  "version": "1.0.0",
+  "description": "This file contains details of the assets used by default, a modified version of the default cassiopeia template.",
+  "license": "GPL-2.0-or-later",
+  "assets": [
+    {
+      "name": "template.default.theme.css",
+      "description": "The default css style to use.",
+      "type": "style",
+      "uri": "template.css"
+    },
+    {
+      "name": "template.default.bootstrap.css",
+      "description": "Bootstrap 5.",
+      "type": "style",
+      "uri": "bootstrap.css"
+    },
+    {
+      "name": "template.default.fontawesome-6.css",
+      "description": "Fontawesome 6",
+      "type": "style",
+      "uri": "fontawesome.css"
+    },
+    {
+      "name": "template.default.template.js",
+      "description": "The file containing the javascript for this template.",
+      "type": "script",
+      "uri": "template.js",
+      "attributes": {
+        "defer": true
+      },
+      "dependencies": [
+        "core"
+      ]
+    },
+    {
+      "name": "template.default.bootstrap.js",
+      "description": "Bootstrap 5 JS.",
+      "type": "script",
+      "uri": "vendor/bootstrap/bootstrap.min.js",
+      "attributes": {
+        "defer": true
+      }
+    },
+    {
+      "name": "template.default.popper.js",
+      "description": "Bootstrap bundle JS.",
+      "type": "script",
+      "uri": "vendor/bootstrap/popper.js",
+      "attributes": {
+        "defer": true
+      },
+      "dependencies": [
+        "template.signet.bootstrap"
+      ]
+    },
+    {
+      "name": "template.default.bootstrap-bundle.js",
+      "description": "Bootstrap bundle JS.",
+      "type": "script",
+      "uri": "vendor/bootstrap/bootstrap.bundle.min.js",
+      "attributes": {
+        "defer": true
+      }
+    },
+
+
+    {
+      "name": "template.default.font.montserrat.css",
+      "description": "Montserrat Font",
+      "type": "style",
+      "uri": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap",
+      "version": "auto",
+      "package": "amatic-font",
+      "attributes": {
+      }
+    },
+    {
+      "name": "template.default.font.amatic.css",
+      "description": "AmaticCS Font",
+      "type": "style",
+      "uri": "https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap",
+      "version": "auto",
+      "package": "amatic-font",
+      "attributes": {
+      }
+    },
+    {
+      "name": "template.default.scripts.js",
+      "description": "The file containing the javascript for this template.",
+      "type": "script",
+      "uri": "scripts.js"
+    },
+    {
+      "name": "template.default.scripts.es.js",
+      "description": "The file containing the ES javascript for this template.",
+      "type": "script",
+      "uri": "scripts.es.js"
+    },
+    {
+      "name": "searchtools",
+      "type": "style",
+      "uri": "system/searchtools/searchtools.min.css"
+    },
+    {
+      "name": "fontawesome",
+      "type": "style",
+      "uri": "system/joomla-fontawesome.min.css"
+    }
+  ]
+}

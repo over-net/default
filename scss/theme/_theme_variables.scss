@@ -1,0 +1,42 @@
+// ------------------------ Fonts
+$montserratFontFamily: 'Montserrat', sans-serif;
+$openSanFontFamily: 'Open Sans', sans-serif;
+$amaticCSFontFamily: 'Amatic SC', cursive;
+;
+
+// Fontawesome
+$fontAwesome: 'Font Awesome 6 Free';
+$fontAwesomeRegular: 'Font Awesome 6 Free';
+$fontAwesomeBrands: 'Font Awesome 6 Brands';
+
+// ------------------------ Colors
+
+// Global
+$primary-main-color: #36454f;
+$secondary-main-color: #a53f2b;
+$tertiary-main-color: #bcab79;
+$fourth-main-color: #ABC6DD;
+
+
+// Font
+$primary-font-color: #040707;
+$secondary-font-color: $secondary-main-color;
+$tertiary-font-color: $tertiary-main-color;
+
+// Link
+$primary-link-color: #091d33;
+$secondary-link-color: #cc2936;
+
+
+// Import Bootstrap Breakpoints
+@import "../vendor/bootstrap/mixins/breakpoints";
+
+// Import Functions For Bootstrap Variables
+@import "../vendor/bootstrap/functions";
+
+//
+@import "../vendor/bootstrap/variables";
+
+
+
+

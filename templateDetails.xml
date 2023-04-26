@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="template" client="site" method="upgrade">
+    <name>default</name>
+    <version>1.0.0</version>
+    <creationDate>September 2022</creationDate>
+    <author>Mykhailo Kulyk</author>
+    <authorEmail>kulik1979@ukr.net</authorEmail>
+    <copyright>(C) 2021</copyright>
+    <description>Default template</description>
+    <inheritable>1</inheritable>
+    <files>
+        <filename>index.php</filename>
+        <filename>joomla.asset.json</filename>
+        <filename>templateDetails.xml</filename>
+        <folder>html</folder>
+        <folder>language</folder>
+        <folder>layout</folder>
+        <folder>library</folder>
+    </files>
+    <media destination="templates/site/signet" folder="media">
+        <folder>assets</folder>
+        <folder>js</folder>
+        <folder>css</folder>
+        <folder>scss</folder>
+        <folder>images</folder>
+        <folder>webfonts</folder>
+    </media>
+    <positions>
+        <position>header</position>
+        <position>footer</position>
+        <position>sidebar</position>
+        <position>search</position>
+        <position>breadcrumbs</position>
+        <position>menu</position>
+        <position>content-top</position>
+    </positions>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/tpl_default.ini</language>
+        <language tag="en-GB">en-GB/tpl_default.sys.ini</language>
+        <language tag="uk-UA">uk-UA/tpl_default.ini</language>
+        <language tag="uk-UA">uk-UA/tpl_default.sys.ini</language>
+        <language tag="ru-RU">ru-RU/tpl_default.ini</language>
+        <language tag="ru-RU">ru-RU/tpl_default.sys.ini</language>
+    </languages>
+    <config>
+
+        <fields name="params">
+            <fieldset name="advanced">
+
+                <field
+                        name="fullScreenLayout"
+                        type="radio"
+                        label="Use fullscreen layout"
+                        default="1"
+                        layout="joomla.form.field.radio.switcher"
+                        filter="boolean">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+
+                <field
+                        name="stickyHeader"
+                        type="radio"
+                        label="Use sticky header"
+                        default="1"
+                        layout="joomla.form.field.radio.switcher"
+                        filter="boolean">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+
+                <field
+                        name="showImageLogo"
+                        type="radio"
+                        label="Use image logo"
+                        default="1"
+                        layout="joomla.form.field.radio.switcher"
+                        filter="boolean">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+
+
+            </fieldset>
+        </fields>
+    </config>
+</extension>
